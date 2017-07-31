@@ -1,13 +1,17 @@
 body { 
+    width: 100%;
+    height: auto;
     padding-top: 0;
-    font-family: 'Fresca', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     font-size: 18px;
     margin: -60px auto;
 }
 
+
 .container-fuild {
-    font-family: 'Fresca', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     margin:-30px;
+
 }
 
 .container-image {
@@ -16,11 +20,11 @@ body {
 
 .tab-pane {
     text-align: center;
-    margin-top: 7px;
+    margin-top: 50px;
 }
 
 .navbar-header {
-    position: relative ;
+   
     margin: 0 auto 0;
     padding-top: 0px;
     text-align: center;
@@ -60,17 +64,6 @@ body {
     border-bottom-color: transparent !important;
 }
 
-/*.container-fuild {
-    margin: auto;
-    margin-top: 70px;
-    height: 100%;
-    min-height: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    overflow: auto;
-    padding: 0;
-    float: left;
-}*/
 
 .collapse {
     background-color: transparent;
@@ -91,12 +84,16 @@ body {
      margin: 5px auto;
  }
 
+.modal-title {
+    text-align: center;
+}
+
 .header-container {
     padding-left: 40px;
     margin-left: 50px;
 }
 
-/* carousel  less than 600px*/
+ /* carousel  less than 600px*/
  @media (max-width: 600px) {
     .carousel-caption {
       display: none; 
@@ -106,21 +103,12 @@ body {
  /* fix padding under menu after resize */
     @media screen and (max-width: 767px) {
         body { padding-top: 60px; }
-        .collapse {
-       display: none !important;
-   }
     }
     @media screen and (min-width:768px) and (max-width: 991px) {
         body { padding-top: 110px; }
-        .collapse {
-       display: none !important;
-   }
     }
     @media screen and (min-width: 992px) {
         body { padding-top: 60px; }
-        .collapse {
-       display: none !important;
-   }
     }
 
 .block{
@@ -158,12 +146,17 @@ body {
   height: 70px;
   bottom: 0;
   left: 0;
-  background-color: #000000;
   text-align: center;
   margin-top: 100px;
   background: rgb(242, 85, 44);
- 
 }
+
+.footer p {
+    text-align: center;
+    margin: 20px auto;
+    color: #fff;
+}
+
 
 /*map google at fish html*/
 .container-map {
@@ -185,7 +178,9 @@ body {
      height: 200px;
      margin: 0 auto;
  }
- 
+ .click-button {
+     color: #FF0000;
+ }
  
 /*navbar change color*/ 
  .navbar-default > li > a:hover, .navbar-default > li > a:focus {
@@ -223,28 +218,67 @@ background-color: #f03c0f;
 
 
 
-/* fish html box style for jquery */
-.box-one  {
-    width: 300px;
-    height: 300px;
-    background: #00FA9A;
+/*index thumbnails*/
+.container-fluid-thumbnails {
     margin: 0 auto;
-   /* background: url(src="img/eel.jpg");*/
-
+    margin-top: 30px;
 }
 
-.slide-box  {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    background: #FFA07A;
-    background: url(src="img/tuna.png");
-
+.thumbnails {
+    float: left;
 }
 
-.hidden {
-   /* display: none;*/
-   min-height: 30px;
-   margin: 0 auto;
-   visibility: hidden;
+.span4 {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.caption {
+    display: block;
+    width:  180px;
+    height: auto;
+    overflow: hidden;
+}
+
+/*/////////animation//////////////*/
+
+.box {
+    margin-top: 150px;
+    background: #FFDAB9;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+.box2 {
+  margin-top: 300px;
+  background: #9ACD32;
+  position: absolute;
+  margin-left:390px;
+}
+
+#contaier-anime {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/*anime contorller*/
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #FFE4E1;
+    margin: 0 auto;
+}
+
+#body-js {
+    width: auto;
+    height: 400px;
+}
+
+.text-anime {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
 }
