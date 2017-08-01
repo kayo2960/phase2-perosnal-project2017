@@ -1,7 +1,6 @@
 body { 
     width: 100%;
     height: auto;
-    padding-top: 0;
     font-family: 'Abril Fatface', cursive;
     font-size: 18px;
     margin: -60px auto;
@@ -282,3 +281,67 @@ canvas {
     font-size: 30px;
     text-align: center;
 }
+
+/*========================================================================*/
+/*=========================form javascript ======================================*/
+
+ /*#container-box {
+                width: 320px;
+                margin: 0 auto;
+                background: #c8ccd1;
+            }*/
+            
+            .container-gene {
+                width: 300px;
+                height: auto;
+                margin: 30px auto;
+                border-color: 1px solid #c8ccd1;
+                background: #c8ccd1;
+                text-align: center;
+            }
+        .input-text {
+            margin-left: 500px 0px;
+            text-align: center;
+        }
+            
+       .input[type="text"]{
+                width: 300px;
+                margin: 0 auto;
+                padding: 7px;
+                border-radius: 3px;
+                border-color: solid 1px #d1483e;
+                font-size: 20px;
+                font-family: 'Courier New', sans-serif;
+                text-align: center;
+                
+            }
+            #btn {
+                width: 300px;
+                color: #ffff;
+                background: #00aaff;
+                padding: 7px;
+                border-radius: 15px;
+                box-shadow: 0 5px 0 #00888c;
+                cursor: pointer;
+                text-align: center;
+                margin: 0 auto;
+            }
+            #btn:hover {
+                opacity:0.8;
+            }
+            fieldset {
+                width:300px;
+                height: 200px;
+                margin-top: 30px;
+                margin-left: 20px auto;
+                border: 2px dashed 	#a2a9b1;
+                border-radius: 15px;
+                text-align: center;
+            }
+            legend {
+                font-weight: bold;
+                padding: 0 10px;
+            }
+            fieldset  p {
+                text-align: center;
+            }
