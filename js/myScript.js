@@ -60,7 +60,7 @@ $('.box2').animate({left: 200,
 
 
 /*==============FORM PAGE =======================================================*/
-/*(function(){
+(function(){
             //'use strict';
           
             var slider = document.getElementById('slider');
@@ -97,6 +97,7 @@ $('.box2').animate({left: 200,
             
                     slider.addEventListener('change',function() {
                         label.innerHTML = this.value;
+                        //console.log('this,value');
                     });
 
                     btn.addEventListener('click',function() {
@@ -107,9 +108,10 @@ $('.box2').animate({left: 200,
                     result.addEventListener('click',function() {
                         this.select();
                         
-                        getPassword();//uchigawa ni ireta kore
+                        getPassword();
+                        
                     });
 
                     
             
-        })();*/
+        })();
