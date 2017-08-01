@@ -61,7 +61,7 @@ $('.box2').animate({left: 200,
 
 /*==============FORM PAGE =======================================================*/
 (function(){
-            //'use strict';
+            'use strict';
           
             var slider = document.getElementById('slider');
             var label = document.getElementById('label');
@@ -69,23 +69,24 @@ $('.box2').animate({left: 200,
             var result = document.getElementById('result');
             var numbers = document.getElementById('numbers');
             var symbols = document.getElementById('symbols');
-            
-            function getPassword(){
+                
+     function getPassword(){
                 var seed_letters = 'abcdefghijklmnopqrstuvwzyx';
-                var seed_numbers = '`123456789';
-                var seed_symbols = '!@#$%^&*()_+';
+                var seed_numbers = '123456789';
+                var seed_symbols = '!@#$%^&*()';
                 var seed;
                 
                 var len = slider.value;
                 var pwd = '';
                 
+                    
                 seed = seed_letters + seed_letters.toUpperCase();
                 if (numbers.checked === true) {
                     seed += seed_numbers;
                 }
                 
                 if (symbols.checked) {
-                    seed += seed_numbers;
+                    seed += seed_symbols;
                 }
                 
                 
@@ -93,11 +94,14 @@ $('.box2').animate({left: 200,
                  //   pwd += seed[Math.floor(Math.random() * seed.length)];
                // }
               //   result.value = 'fjkdjfjkasjdfk';
-            }
+            
+            
+                     result.value = 'fa78sd9776jdkjh';
+                }
+            
             
                     slider.addEventListener('change',function() {
                         label.innerHTML = this.value;
-                        //console.log('this,value');
                     });
 
                     btn.addEventListener('click',function() {
@@ -108,10 +112,8 @@ $('.box2').animate({left: 200,
                     result.addEventListener('click',function() {
                         this.select();
                         
-                        getPassword();
-                        
                     });
 
-                    
+                     getPassword();//uchigawa ni ireta kore
             
         })();

@@ -183,7 +183,7 @@ body {
  
 /*navbar change color*/ 
  .navbar-default > li > a:hover, .navbar-default > li > a:focus {
-color: #004d00;  /*Sets the text hover color on navbar*/
+color: #F08080;/*#004d00; */ /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default > .active >   
@@ -257,30 +257,7 @@ background-color: #f03c0f;
   margin-left:390px;
 }
 
-#contaier-anime {
-    width: 300px;
-    height: auto;
-    margin: 0 auto;
-}
 
-
-/*anime contorller*/
-canvas {
-    border:1px solid #d3d3d3;
-    background-color: #FFE4E1;
-    margin: 0 auto;
-}
-
-#body-js {
-    width: auto;
-    height: 400px;
-}
-
-.text-anime {
-    margin: 0 auto;
-    font-size: 30px;
-    text-align: center;
-}
 
 /*========================================================================*/
 /*=========================form javascript ======================================*/
