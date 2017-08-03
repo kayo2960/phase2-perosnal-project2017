@@ -137,8 +137,16 @@
         </p>
         </fieldset>
     </div>
-   </div> 
-    
+   <!--======================================================================================================-->
+   
+   <form name="ex5">
+	Please enter a small number:
+	<INPUT NAME="num"
+	    onChange="if (!checkNum(this.value, 1, 10))
+	             {this.focus();this.select();} else {thanks()}">
+	</form>
+	
+
      
 <div class="footer">
     <p>copyright: phase2_2017</p>

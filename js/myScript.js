@@ -117,3 +117,35 @@ $('.box2').animate({left: 200,
                      getPassword();//uchigawa ni ireta kore
             
         })();
+/*===========================card javascript=============================================*/
+            /*global $document $*/
+/*$(document).ready(function(){
+
+    $('#runTest').click(function(){
+
+    //Get the birthday year from user and convert to integer.
+    
+    var yearOfBirth = parseInt(prompt('Enter the year you were born.'));
+
+    //Get year informatin from user's comlputer.
+    var d = new Date();
+    var thisYear = d.getFullYear();
+
+    //Caluculate user's age    
+    var age = thisYear - yearOfBirth;
+
+    //Test if user can vote
+    if (age <= 6) {
+    //alert ('Hey, you can vote!');
+    $('#voteTest').text('Tuna Can is good for your lunch!');
+    }else if (age >= 17) {// alert('Sorry, you need to wait a few years.');
+        $('#voteTest').text('slamon is good for your skin!');
+    }else 
+         $('#voteTest').text('white fish is good for all ages');
+    
+});
+});
+      */
+      
+ /*===========================card javascript=============================================*/     
+  
